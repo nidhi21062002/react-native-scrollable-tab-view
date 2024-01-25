@@ -1,42 +1,26 @@
 {
-  "name": "react-native-scrollable-tab-view",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint -c .eslintrc . --ignore-path .gitignore",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brentvatne/react-native-scrollable-tab-view.git"
-  },
-  "keywords": [
-    "react-native-component",
-    "react-component",
-    "react-native",
-    "ios",
-    "tab",
-    "scrollable"
-  ],
-  "author": "Brent Vatne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brentvatne/react-native-scrollable-tab-view/issues"
-  },
-  "peerDependencies": {
-    "react-native": ">=0.20.0"
-  },
-  "homepage": "https://github.com/brentvatne/react-native-scrollable-tab-view#readme",
-  "dependencies": {
-    "@react-native-community/viewpager": "3.3.0",
-    "create-react-class": "^15.6.2",
-    "deprecated-react-native-prop-types": "^2.3.0",
-    "prop-types": "^15.6.0",
-    "react-timer-mixin": "^0.13.3"
-  },
-  "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.1.1"
-  }
+	"name": "Example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"create-react-class": "^15.6.2",
+		"react": "16.0.0",
+		"react-native": "0.48.4",
+		"react-native-scrollable-tab-view": "file:../",
+		"react-native-vector-icons": "^4.4.0",
+		"react-navigation": "^1.0.0-beta.13"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }

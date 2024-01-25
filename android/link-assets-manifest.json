@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Sofia Pro Light.ttf",
+      "sha1": "fb34a7f079f82b9450259a997f16913ae21aaebe"
+    },
+    {
+      "path": "assets/fonts/Sofia Pro Medium.ttf",
+      "sha1": "071a82f5ed2ebb110b4eba6d24c7514b96daffca"
+    },
+    {
+      "path": "assets/fonts/Sofia Pro Regular.ttf",
+      "sha1": "306e61f96f70b39b4c99ccf4e89620c3e53e9f28"
+    }
+  ]
+}
